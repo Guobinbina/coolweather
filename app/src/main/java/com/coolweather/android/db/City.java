@@ -26,7 +26,7 @@ public class City extends DataSupport {
     public int getCityCode(){
         return cityCode;
     }
-    private  void setCityCode(int cityCode){
+    public   void setCityCode(int cityCode){
         this.cityCode = cityCode;
     }
     public int getProvinceId(){
